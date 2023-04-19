@@ -1,0 +1,1 @@
+We dealed with imbalance proble with RandomOver, RandomUnder, ADASYN and SMOT Sampler, but ignoring to set the random state to a fix value in fit_resampler function. So the result in the file is different from the report which we acquired before, expecially in ADASYN Sampler.
